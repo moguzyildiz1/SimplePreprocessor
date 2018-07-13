@@ -38,7 +38,7 @@ int main()
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 				if((fPtr=strstr(line,"#define"))!=NULL){	// if this line has #define word.
-					//fPtr=strstr(dizi,"#define");
+					//fPtr=strstr(line,"#define");
 					fPtr=fPtr+sizeof("#define");	//ahead to after #define
 					sscanf(fPtr,"%s%s",macro[defineCounter],value[defineCounter]);
 					printf("%s - %s\n",macro[defineCounter],value[defineCounter]);
@@ -59,7 +59,6 @@ int main()
 									if(*ptr2=='\n')
 										break;
 								}
-								printf("fPtr:-- %s value:-- %s dizi2:-- %s --\n",fPtr,value[i],restored);
 								sprintf(line,"%s%s%s",fPtr,value[i],restored);
 								for(j=0;j<120;j++)
 									restored[j]='\0';
