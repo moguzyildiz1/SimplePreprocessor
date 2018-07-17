@@ -30,6 +30,6 @@ int main()
 {
 	int a[10], j;
 	for (j = 0; j < 5; ++j)
-	printf(“TAMSAYI : %d\n”, j);
+	printf(“Integer : %d\n”, j);
 	return 0;
 }
