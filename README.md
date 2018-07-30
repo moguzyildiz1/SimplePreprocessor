@@ -2,7 +2,7 @@
 This is a simple C preprocessor. 
 # Usage
 When it is run, program will ask the user to enter the name of a C file.
-Your program will open the C file in text mode, it will find all preprocessor definitions in the form 
+Program will open the C file in text mode, it will find all preprocessor definitions in the form 
 #define
 and will replace all define occurrences with the defined counterpart and will write the new C program into a new file.
 For example, consider the following C program (named myprog.c) that includes the lines below:
