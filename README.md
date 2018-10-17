@@ -13,10 +13,10 @@ For example, consider the following C program (named myprog.c) that includes the
 
 int main()
 {
-	DOUBLE a[SIZE], j;
-	for (j = 0; j < MAX; ++j)
-	printf(“DOUBLE : %f\n”, j);
-	return 0;
+*******	DOUBLE a[SIZE], j;
+*******	for (j = 0; j < MAX; ++j)
+*******	printf(“DOUBLE : %f\n”, j);
+*******	return 0;
 }
 
 # On console
@@ -28,8 +28,8 @@ The file myprog_pro.c will contain the following lines:
 
 int main()
 {
-	int a[10], j;
-	for (j = 0; j < 5; ++j)
-	printf(“Integer : %d\n”, j);
-	return 0;
+*******	int a[10], j;
+*******	for (j = 0; j < 5; ++j)
+*******	printf(“Integer : %d\n”, j);
+*******	return 0;
 }
