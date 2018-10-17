@@ -22,10 +22,10 @@ int main()
 }
 ```
 # On console
-Enter the C program name:
-myprog.c
-Your result is in file myprog_pro.c
-The file myprog_pro.c will contain the following lines:
+Enter the C program name: </br>
+myprog.c </br>
+Your result is in file myprog_pro.c </br>
+The file myprog_pro.c will contain the following lines: 
 ```
 #include <stdio.h>
 
